@@ -4,8 +4,9 @@
   "description": "",
   "main": "server.js",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4"
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
   },
   "devDependencies": {},
   "scripts": {
@@ -14,5 +15,14 @@
     "watch": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RKaseman/heroku-start.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/RKaseman/heroku-start/issues"
+  },
+  "homepage": "https://github.com/RKaseman/heroku-start#readme"
 }
